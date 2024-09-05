@@ -1,0 +1,40 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: left;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-content h2 {
+    font-size: 18px;
+    margin: 0 0 10px;
+    font-weight: bold;
+}
+
+.card-content p {
+    font-size: 14px;
+    margin: 0 0 10px;
+}
+
+.read-more {
+    color: #1a73e8;
+    text-decoration: none;
+    font-weight: bold;
+}
